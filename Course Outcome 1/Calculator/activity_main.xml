@@ -7,68 +7,65 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:fontFamily="@font/archivo_black"
+        android:text="Simple Calculator"
+        android:textColor="#407B95"
+        android:textSize="20sp" />
+
     <EditText
         android:id="@+id/num1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Enter the number" />
+        android:hint="Enter the 1st number"
+        android:inputType="number" />
 
     <EditText
         android:id="@+id/num2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Enter the number" />
+        android:hint="Enter the 2nd number"
+        android:inputType="number" />
 
     <EditText
-        android:id="@+id/op"
+        android:id="@+id/result"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Result" />
+        android:hint="Result"
+        android:inputType="number" />
 
     <Button
         android:id="@+id/add"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="add"
-        android:text="ADD"
-        app:backgroundTint="#52B5AC" />
+        android:text="ADD" />
 
     <Button
-        android:id="@+id/subtract"
+        android:id="@+id/sub"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="add"
-        android:text="SUBTRACT"
-        app:backgroundTint="#52B5AC" />
+        android:onClick="sub"
+        android:text="SUB" />
 
     <Button
-        android:id="@+id/multiply"
+        android:id="@+id/mult"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="add"
-        android:text="MULTIPLY"
-        app:backgroundTint="#52B5AC" />
+        android:onClick="mult"
+        android:text="Mult" />
 
     <Button
-        android:id="@+id/divide"
+        android:id="@+id/div"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="add"
-        android:text="DIVIDE"
-        app:backgroundTint="#52B5AC" />
-
-    <Button
-        android:id="@+id/delete"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="add"
-        android:text="DELETE"
-        app:backgroundTint="#52B5AC" />
+        android:onClick="div"
+        android:text="Div" />
 
 </LinearLayout>
