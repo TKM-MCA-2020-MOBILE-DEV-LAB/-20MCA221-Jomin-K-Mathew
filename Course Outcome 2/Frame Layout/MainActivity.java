@@ -11,7 +11,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        i1=(ImageView) findViewById(R.id.imageView1);
+        i1=(ImageView) findViewById(R.id.imageView);
         i2=(ImageView) findViewById(R.id.imageView2);
         i1.setOnClickListener(this);
         i2.setOnClickListener(this);
@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View v) {
-        if(v.getId()==R.id.imageView1)
+        if(v.getId()==R.id.imageView)
         {
             i1.setVisibility(v.GONE);
             i2.setVisibility(v.VISIBLE);

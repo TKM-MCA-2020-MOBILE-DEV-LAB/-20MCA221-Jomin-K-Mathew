@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3A3939"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="314dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="55dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginBottom="97dp"
+        android:background="#1B678A"
+        android:backgroundTint="#082257"
+        android:foregroundTint="#602121"
+        android:text="Create New Facebook Account"
+        app:iconTint="#4E7CF3"
+        app:rippleColor="#4E1D1D" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="248dp"
+        android:layout_height="27dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="131dp"
+        android:layout_marginTop="443dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="261dp"
+        android:fontFamily="@font/archivo_black"
+        android:text="Log Into Another Account"
+        android:textColor="#26E6EC"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="103dp"
+        android:layout_marginBottom="353dp"
+        android:fontFamily="@font/archivo_black"
+        android:text="Admin"
+        android:textColor="#26E6EC"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="135dp"
+        android:layout_marginTop="498dp"
+        android:layout_marginEnd="74dp"
+        android:layout_marginBottom="206dp"
+        android:fontFamily="@font/archivo_black"
+        android:text="Find Your Account"
+        android:textColor="#26E6EC"
+        android:textSize="14sp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="86dp"
+        android:layout_marginTop="493dp"
+        android:layout_marginEnd="293dp"
+        android:layout_marginBottom="206dp"
+        android:tint="#26E6EC"
+        app:srcCompat="@android:drawable/ic_menu_search" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="43dp"
+        android:layout_height="46dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="82dp"
+        android:layout_marginTop="430dp"
+        android:layout_marginEnd="286dp"
+        android:layout_marginBottom="255dp"
+        android:tint="#26E6EC"
+        app:srcCompat="@android:drawable/ic_input_add" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="74dp"
+        android:layout_height="61dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="325dp"
+        android:layout_marginEnd="241dp"
+        android:layout_marginBottom="345dp"
+        app:srcCompat="@drawable/daco_5447989" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="176dp"
+        android:layout_height="148dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="117dp"
+        android:layout_marginTop="143dp"
+        android:layout_marginEnd="118dp"
+        android:layout_marginBottom="438dp"
+        android:tint="#FAFAFA"
+        app:srcCompat="@drawable/_8e91965eb97430e819064f5" />
+
+</RelativeLayout>

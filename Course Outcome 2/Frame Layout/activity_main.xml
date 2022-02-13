@@ -7,20 +7,17 @@
     android:background="#BDBABA"
     tools:context=".MainActivity">
 
-
     <ImageView
-        android:id="@+id/imageView1"
-        android:layout_width="427dp"
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="left|top"
-        android:background="#CACAC8"
-        app:srcCompat="@drawable/img1" />
+        android:onClick="onClick"
+        app:srcCompat="@drawable/daco_5447989" />
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="396dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="left|top"
-        android:visibility="gone"
-        app:srcCompat="@drawable/img2" />
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:onClick="onClick"
+        app:srcCompat="@drawable/_8e91965eb97430e819064f5" />
 </FrameLayout>
